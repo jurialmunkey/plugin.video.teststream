@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.teststream"
+version="0.0.1"
+name="Video Test Stream"
+provider-name="jurialmunkey">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.infotagger" version="0.0.5" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="plugin.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <reuselanguageinvoker>true</reuselanguageinvoker>
+  <summary lang="en_GB">Testing</summary>
+  <description lang="en_GB">Testing</description>
+  <disclaimer lang="en_GB">Testing</disclaimer>
+  <license>GPL-3.0-or-later</license>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+</extension>
+</addon>
